@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1fce3;
+}
+
+header {
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.interests-container {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.interest-block {
+    background-color: #FF7F50;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: border 0.3s ease;
+}
+
+.interest-block:hover {
+    border: 2px solid #333;
+    border-radius: 24px;
+}
+
+footer {
+    background: linear-gradient(45deg, #FFD700, #FF6347);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-block {
+    background: linear-gradient(45deg, #87CEFA, #32CD32);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer; 
+}
+.png{
+    width: 300px;
+    height: 300px;
+}
